@@ -1,0 +1,36 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flClips"
+    tools:context="com.scorelights.scorelights.ui.home.ClipsFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvClips"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/no_clips_to_view"
+                android:id="@+id/tvNoClips"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:background="@color/white"/>
+        </FrameLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ScoreLights</string>
+
+    <!-- Manifest -->
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <!-- Home -->
+    <string name="soccer">Soccer</string>
+    <string name="nba">NBA</string>
+    <string name="nfl">NFL</string>
+    <string name="nhl">NHL</string>
+    <string name="reddit_source">Reddit.com</string>
+    <string name="share_url">Share url</string>
+
+    <!-- Error Toast -->
+    <string name="error_occurred">An error occurred, attempting to load clips. Please pull to refresh.</string>
+    <string name="dismiss">DISMISS</string>
+
+    <!-- Filter -->
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="new_sort">New</string>
+    <string name="popular">Popular</string>
+    <string name="past_day">Past Day</string>
+    <string name="past_week">Past Week</string>
+    <string name="past_month">Past Month</string>
+    <string name="past_year">Past Year</string>
+    <string name="all_time">All Time</string>
+    <string name="past_hour">Past Hour</string>
+    <string name="all">all</string>
+    <string name="no_clips_to_view">No clips currently available.</string>
+</resources>

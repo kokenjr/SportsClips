@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/filter">
+        <menu>
+            <group android:id="@+id/filterGroup">
+                <!--<item-->
+                    <!--android:id="@+id/filterHour"-->
+                    <!--android:title="@string/past_hour"-->
+                    <!--android:checkable="true"/>-->
+                <item
+                    android:id="@+id/filterDay"
+                    android:title="@string/past_day"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/filterWeek"
+                    android:title="@string/past_week"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/filterMonth"
+                    android:title="@string/past_month"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/filterYear"
+                    android:title="@string/past_year"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/filterAllTime"
+                    android:title="@string/all_time"
+                    android:checkable="true"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/sort">
+        <menu>
+            <group android:id="@+id/sortGroup">
+                <item
+                    android:id="@+id/sortNew"
+                    android:title="@string/new_sort"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/sortPopular"
+                    android:title="@string/popular"
+                    android:checkable="true"/>
+            </group>
+        </menu>
+    </item>
+</menu>

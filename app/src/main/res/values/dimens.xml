@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Home -->
+    <dimen name="title_top_margin">10dp</dimen>
+    <dimen name="control_gradient_height">20dp</dimen>
+    <dimen name="volume_padding">25dp</dimen>
+    <dimen name="volume_icon_dimen">60dp</dimen>
+    <dimen name="video_clip_height">300dp</dimen>
+    <dimen name="volume_top_padding">10dp</dimen>
+    <dimen name="volume_start_padding">10dp</dimen>
+    <dimen name="volume_end_padding">20dp</dimen>
+    <dimen name="share_margin_start">50dp</dimen>
+
+    <!-- Fullscreen -->
+    <dimen name="fullscreen_exit_end_margin">5dp</dimen>
+    <dimen name="loading_margin">20dp</dimen>
+    <dimen name="loading_progress_dimen">40dp</dimen>
+</resources>

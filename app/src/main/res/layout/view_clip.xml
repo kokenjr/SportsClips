@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flClip">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_clip_height"
+            android:background="@android:color/black"
+            android:id="@+id/flVideo"/>
+        <include layout="@layout/view_custom_video_controls" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flClip"
+        android:layout_marginTop="@dimen/title_top_margin"
+        android:layout_marginStart="@dimen/title_top_margin"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/tvCreated"
+        android:text="Test"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flClip"
+        android:layout_toEndOf="@id/tvCreated"
+        android:padding="@dimen/title_top_margin"
+        android:id="@+id/tvSource"
+        android:text="@string/reddit_source"
+        style="@style/ClipSource"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_grey"
+        android:layout_below="@+id/flClip"
+        android:layout_toEndOf="@id/tvSource"
+        android:layout_marginTop="@dimen/title_top_margin"
+        android:layout_marginEnd="@dimen/title_top_margin"
+        android:id="@+id/tvAuthor"
+        android:text="Test"/>
+
+
+</RelativeLayout>

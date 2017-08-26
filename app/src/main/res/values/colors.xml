@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android Defaults -->
+    <color name="colorPrimary">#5E6FC7</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#FF540E</color>
+
+    <!-- Custom -->
+    <color name="red">#da4439</color>
+
+    <color name="dark_grey">#2d2d2d</color>
+    <color name="dark_grey_85">#CC2d2d2d</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+</resources>
